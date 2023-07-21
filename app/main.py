@@ -1,6 +1,14 @@
-def print_hello():
-    return "hello"
+"""Генератор приветствий."""
+import pprint
 
+def Greeting(name: str) -> str:
+      """Возвращает текст приветствия.
 
-if __name__ == '__main__':
-    print_hello()
+      Args:
+          name: Имя пользователя
+
+      Returns:
+          int: Текст приветствия
+      """
+      # pprint.pprint(name.lower())
+      return 'Привет, name'
